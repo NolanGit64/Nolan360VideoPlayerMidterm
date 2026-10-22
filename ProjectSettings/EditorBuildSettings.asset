@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/360Video.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 7def367103da4c245871c10673655f54
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7796a1a2181654845a083f37272e1ad4, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 8c99c577af604ea43813ca24d1568025, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1209bdcd5846574449b16d627e31971f, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: d6aa26c09932cca4ab703bfac3aa2a1d, type: 2}
+  m_UseUCBPForAssetBundles: 0
