@@ -20,7 +20,7 @@ public class GazeDwellButton : MonoBehaviour
             gazeCamera.transform.position,
             gazeCamera.transform.forward
         );
-
+        // debug ray
         Debug.DrawRay(ray.origin, ray.direction * gazeDistance,
             Color.red
         );
@@ -66,6 +66,7 @@ public class GazeDwellButton : MonoBehaviour
             gazeTimer = 0f;
             gazeProgress.fillAmount = 0f;
             ResetButton();
+            StopCoroutine(dwellCoroutine);
         }
     }
 
